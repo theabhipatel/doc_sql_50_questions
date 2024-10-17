@@ -124,3 +124,33 @@ A UNIQUE constraint ensures all values in a column are different. It allows NULL
 EXISTS is used to check if a subquery returns any results. If the subquery returns at least one row, EXISTS returns true.
 
 ---
+
+### 1. What is a transaction in SQL?
+A transaction is a sequence of one or more SQL operations executed as a single unit of work. It ensures data consistency.
+
+### 1. What is ACID in SQL?
+ACID stands for Atomicity, Consistency, Isolation, and Durability. It ensures reliable processing of database transactions.
+
+### 1. What is BETWEEN in SQL?
+BETWEEN is used to filter the result set within a specific range. Example: SELECT * FROM table_name WHERE column_name BETWEEN value1 AND value2;.
+
+### 1. What is a correlated subquery?
+A correlated subquery depends on the outer query for its values. It is executed for each row processed by the outer query.
+
+### 1. What is a self-join?
+A self-join is when a table is joined with itself. It’s useful when comparing rows within the same table.
+
+### 1. What is the difference between COUNT(*) and COUNT(column_name)?
+COUNT(*) counts all rows, including those with NULLs. COUNT(column_name) only counts rows where the specified column is not NULL.
+
+### 1. What is a cursor in SQL?
+A cursor is a database object used to retrieve, manipulate, and traverse through a result set row-by-row.
+
+### 1. What is ISNULL in SQL?
+ISNULL is used to replace NULL values with a specified value. Example: SELECT ISNULL(column_name, 'default_value') FROM table_name;.
+
+### 1. What is a schema in SQL?
+A schema is a collection of database objects like tables, views, indexes, and procedures, organized under a database.
+
+### 1. What is a composite key?
+A composite key is a combination of two or more columns in a table that together serve as a unique identifier for rows.
