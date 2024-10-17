@@ -60,3 +60,67 @@ UNION removes duplicates, while UNION ALL keeps all duplicates.
 
 ### 1. What is a subquery?
 A subquery is a query inside another query. It is used to retrieve data to be used in the main query.
+
+---
+
+### 1. What is DISTINCT in SQL?
+DISTINCT is used to remove duplicate rows in the result set. Example: SELECT DISTINCT column_name FROM table_name;.
+
+### 1. What is a DEFAULT constraint?
+A DEFAULT constraint sets a default value for a column if no value is provided during the insert.
+
+### 1. What is AUTO_INCREMENT?
+AUTO_INCREMENT allows a column to automatically generate a unique number when a new record is inserted.
+
+### 1. What is a VIEW in SQL?
+A VIEW is a virtual table based on the result of a SQL query. It doesn't store data but provides a way to simplify complex queries.
+
+### 1. What is the ALTER statement used for?
+The ALTER statement is used to modify an existing database object, such as a table. You can add, delete, or modify columns.
+
+### 1. What is the difference between VARCHAR and CHAR?
+VARCHAR is a variable-length string, whereas CHAR is a fixed-length string. CHAR pads the data with spaces if it’s shorter than the defined length.
+
+### 1. What is normalization?
+Normalization is the process of organizing data to reduce redundancy and improve data integrity in a database.
+
+### 1. What is denormalization?
+Denormalization is the process of adding redundancy to a database for performance improvement, typically by combining tables.
+
+### 1. What are the different types of JOINs in SQL?
+The main types are INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and CROSS JOIN.
+
+### 1. What is a RIGHT JOIN?
+RIGHT JOIN returns all records from the right table and the matched records from the left table. If there is no match, NULL values are returned for the left table.
+
+### 1. What is the difference between HAVING and WHERE with GROUP BY?
+WHERE is used before GROUP BY to filter rows, while HAVING is used after GROUP BY to filter groups.
+
+### 1. What is a TRIGGER in SQL?
+A TRIGGER is a set of SQL commands that automatically executes when a specific event occurs in a table, like insert, update, or delete.
+
+### 1. What is CASE in SQL?
+CASE is used to implement conditional logic in SQL queries. It works like an IF-THEN-ELSE statement.
+
+### 1. What is COALESCE in SQL?
+COALESCE returns the first non-NULL value in a list of arguments.
+
+### 1. What is a stored procedure?
+A stored procedure is a prepared SQL code that can be saved and reused. It can accept parameters and perform operations on the database.
+
+### 1. What is the difference between DROP, TRUNCATE, and DELETE?
+DELETE removes rows based on conditions and can be rolled back, TRUNCATE removes all rows without conditions and can't be rolled back, and DROP removes the entire table or database.
+
+### 1. What is ROLLBACK in SQL?
+ROLLBACK is used to undo changes made by a transaction if something goes wrong.
+
+### 1. What is a COMMIT in SQL?
+COMMIT saves all the changes made during a transaction permanently to the database.
+
+### 1. What is a UNIQUE constraint?
+A UNIQUE constraint ensures all values in a column are different. It allows NULLs, but only one NULL.
+
+### 1. What is the EXISTS keyword in SQL?
+EXISTS is used to check if a subquery returns any results. If the subquery returns at least one row, EXISTS returns true.
+
+---
